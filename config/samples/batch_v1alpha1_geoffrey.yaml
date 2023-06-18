@@ -1,0 +1,12 @@
+apiVersion: batch.geoffrey.dev/v1alpha1
+kind: Geoffrey
+metadata:
+  labels:
+    app.kubernetes.io/name: geoffrey
+    app.kubernetes.io/instance: geoffrey-sample
+    app.kubernetes.io/part-of: k8s-helloworld-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: k8s-helloworld-operator
+  name: geoffrey-sample
+spec:
+  # TODO(user): Add fields here
